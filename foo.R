@@ -5,7 +5,6 @@ volume <- function(r) {
 }
 
 volume_vector <- function(r) {
-  r <- 22
   for (r in 2:4){
     volume(r)
   }
