@@ -5,8 +5,8 @@ volume <- function(r) {
 }
 
 volume_vector <- function(r) {
-  for (r in 2:4){
-    volume(r)
+  for (exponent in 1:3){
+    print(volume((r^exponent)))
   }
 }
 
