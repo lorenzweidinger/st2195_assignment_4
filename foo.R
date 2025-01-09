@@ -10,3 +10,5 @@ volume_vector <- function(r) {
     volume(r)
   }
 }
+
+volume_vector(r)
