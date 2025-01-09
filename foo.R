@@ -1,7 +1,7 @@
 r <- 2
 
 volume <- function(r) {
-  3/4*pi*r^2
+  (4/3)*pi*(r^3)
 }
 
 volume_vector <- function(r) {
