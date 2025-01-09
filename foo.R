@@ -1,6 +1,6 @@
 r <- 2
 
-volume <- function(r, rho) {
+volume <- function(r) {
   3/4*pi*r^2
 }
 
